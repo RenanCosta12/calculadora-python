@@ -1,0 +1,22 @@
+numero1 = int(input("Digite algum numero para calcular"))
+expressão = input("digite alguma expressão: +,-,x,/")
+numero2 = int(input("mais um numero"))
+
+if(expressão == '+'):
+    resultado = numero1 + numero2
+    print("Deu:",resultado)
+
+elif(expressão == '-'):
+    resultado = numero1 - numero2
+    print("Deu:",resultado)
+
+elif(expressão == 'x'):
+    resultado = numero1 * numero2
+    print("Deu:",resultado)
+
+elif(expressão == '/'):
+    resultado = numero1 / numero2
+    print("Deu:",resultado)
+    
+else:
+    print("Algo deu errado. talvez voce digitou errado. tente novamente.")
